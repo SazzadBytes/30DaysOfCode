@@ -17,8 +17,7 @@ def main():
 
     n = int(input())
     string_list = [input() for _ in range(n)]
-    
-    print("Item Printed")
+
     printArray(int_list)
     printArray(string_list)
 
